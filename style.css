@@ -1,0 +1,57 @@
+body {
+    overflow: hidden;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 5rem;
+    margin: 20px;
+}
+
+.banner{
+    height: 200px;
+    background-image: url(mj.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar li{
+    list-style: none; 
+}
+
+.navbar ul{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   gap: 10px;
+   font-size: 14px;
+   margin: 10px 5px;
+   padding: 10px 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:active{
+    color: red;
+}
+
+.titolo{
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+    padding-top: 60px;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 30px;   
+}
+
+.link{
+    color: white;
+}
